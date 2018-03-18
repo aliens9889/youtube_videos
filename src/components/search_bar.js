@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 class SearchBar extends Component {
 
@@ -9,7 +9,6 @@ class SearchBar extends Component {
       term: ''
     };
   }
-
 
   render() {
     return (
@@ -23,9 +22,8 @@ class SearchBar extends Component {
 
   onInputChange(term) {
     this.setState({term});
-    this.props.onSearchTermChange(term)
+    this.props.onSearchTermChange(term);
   }
-
 
 }
 
